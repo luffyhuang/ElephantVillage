@@ -1,0 +1,42 @@
+.content-item{
+    background-color: #fff;
+    width: 1000px;
+    height: 600px;
+    text-align: left;
+    padding: 60px;
+    margin: 60px 0;
+}
+.content-item-light1{
+    background-color: rgb(238, 207, 177);
+    width: 1000px;
+    height: auto;
+    text-align: left;
+    padding: 60px;
+    margin: 60px 0;
+}
+
+.content-item-light2{
+    background-color: rgb(238, 207, 177);
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    padding: 60px;
+    margin: 60px 0;
+}
+
+.content-item-light3{
+    background-color: rgb(238, 207, 177);
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    padding: 60px;
+    margin: 60px 0;
+}
+.content-item-light4{
+    background-color: rgb(238, 207, 177);
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    padding: 60px;
+    margin: 60px 0;
+}
