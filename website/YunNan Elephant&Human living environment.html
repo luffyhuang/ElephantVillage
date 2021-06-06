@@ -1,231 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>云南人象共存背景</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大树脚野象村</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/new.css">
 <style>
-* {
-    box-sizing: border-box;
-}
-
-/* body 样式 */
-body {
-    font-family: windows;
-    margin: 0;
-}
-
-/* 标题 */
-.header {
-    padding: 80px;
-    text-align: center;
-    background:rgba(20, 63, 255, 0.575);
-    color: white;
-}
-
-/* 标题字体加大 */
-.header h1 {
-    font-size: 50px;
-}
-
-/* 导航 */
-.navbar {
-    overflow: hidden;
-    background-color: rgb(80, 71, 71);
-}
-
-/* 导航栏样式 */
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    font-family: Arial;
-    padding: 15px 20px;
-    text-decoration: none;
     
+    .small {
+    line-height: 150%;
 }
-
-/* 右侧链接*/
-.navbar a.right {
-    float: right;
-}
-
-/* 鼠标移动到链接的颜色 */
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* 列容器 */
-.row {  
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-}
-
-.row .content {
-  position: absolute;
-  bottom: 300px;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 100%;
-}
-
-/* 创建两个列 */
-/* 边栏 */
-.side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
-    background-color: #e5e5e5;
-    padding: 15.0px;
-}
-
-/* 主要的内容区域 */
-.main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 50%;
-    background-color: #f3f3f3;
-    padding: 20px;
-    text-align: center;
-    font-size: 1.5vw;
-}
-
-
-/* 底部 */
-.footer {
-    padding: 10px;
-    text-align: center;
-    background: #333;
-    color:#ddd;
-}
-
-/* 响应布局 */
-@media screen and (max-width: 700px) {
-    .row {   
-        flex-direction: column;
-    }
-}
-
-/* 响应布局 */
-@media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
-}
-.container{
-    height: 260px;
-    width: 1270px;
-    font-size:5em;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #c30d23;
-}
-.container img{
-  max-width: 100%;
-  max-height: 100%;
-}
-@supports(object-fit: cover){
-    .container img{
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
-    }
-}
-.end{
-    padding:30px;
-    height: 140px;
-    width: 1400px;
-    overflow:hidden;
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-    float:left;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
 
 </style>
 </head>
-<body  style= "overflow-x:hidden;">
+<body>
 
-<div class="row">
-  <img width="1280" height="700" src='image/233.jpg' style="z-index:0;" alt='none'>
-  <div class="content">
-    <h1 style="text-align: center;">云南人象共存背景</h1>
-    <p style="text-align: center;">给它们一点爱，我们唯一的家园地球才更美好——保护野生动物，就是关爱人类自己。</p>
-  </div>
-</div>
-<hr class="new5" style="border-top: 15px solid black;">
+<div class="header">
+ <div class="header-content">
+    <a class="logo" href="index.html" target="_blank">
+        <img  src="images/ev_logo.png"/>
+    
+    </a> 
 
-<div class="row">
-  <div class="side" style="text-align:justify;">
-    <img width="120" height="50" style="position:relative; right:20; left: 0px; top:55px;" src='image/Head.png' alt='none'>
-    <img width="120" height="50" style="position:relative; left: 230px; top:55px;" src='image/Head.png' alt='none'>
-      <h2 style="text-align:center;">
-        <span style="font-size:25px; font-family:Stencil Std;">云南人象</span>
-      </h2>
-      <span style="font-size: 50px; font-size: 1.5vw; font-family: windows; text-align: justify;">
-        中国目前约有250~300头亚洲象，分布在云南南部，主要包括西双版纳国家自然保护区、南滚河自然保护区、思茅保护区等。亚洲象是我国一级重点保护野生动物，被国际自然和自然资源保护联盟(IUCN)列为濒危物种。 
- 
-        亚洲象喜欢栖息在1000米以下低海拔的地势平坦的山地河谷中，那里植被类型一般为竹阔混交林，灌丛或高山草甸。它们取食范围较广，野生植物与农作物均各有取食。由于体型庞大，亚洲象进食量十分惊人，据估计每日要消耗150kg左右的植物。有意思的一点是，亚洲象的族群为母系社会，象群成员主要是母象和幼象，成年公象则独来独往。作为高智商哺乳动物，它们还能够记住固定的食物采集地点，并且反复回来取食。
-      </span>
-</div>
-  <div class="main" style="position:relative; top:0px; left:0px; background-color:#bbbbba;">
-      <img width="700" height="400" src="image/map.jpg" frameborder="0" style="cursor: url('image/cursor.png'), default; position:relative; left:10px; top:5px;">
-  </div>
-</div>
-<hr class="new5" style="border-top: 15px solid black;">
-
-<div class='row'>
-    <div class="main" style="position:relative; top:0px; left:0px; background-color:#bbbbba;">
-    <img width="700" height="400" src="image/1.jpg" alt="none">
+    <ul class="nav">
+        <li>
+            <a class="active" href="index.html">首页</a>
+          
+        </li>
+        <li>
+            <span>大树脚村与大象</span>
+            <ul class="nav-child">
+                <li><a href="">云南人象共存背景</a></li>
+                <li><a href="">大树脚村介绍</a></li>
+                <li><a href="">大树脚的大象</a></li>
+            </ul>
+        </li>
+        <li>
+            <span>公益项目进展</span>
+            <ul class="nav-child">
+            <li><a href="ngo.html">公益基地概括</a></li>
+            <li><a href="">太阳能防兽灯</a></li>
+            <li><a href="ELEtea.html">野象茶</a></li>
+            <li><a href="donate.html">捐款支持</a></li>
+            </ul>
+        </li>
+        <li>
+            <span>探讨全球人象共存</span>
+            <ul class="nav-child">
+                <li><a href="">相关资讯</a></li>
+                <li><a href="">课程学习</a></li>
+            </ul>
+    </li>
+        <li>
+        <span>旅行指南</span>
+            <ul class="nav-child">
+                <li><a href="">衣食住行</a></li>
+                <li><a href="">文化体验</a></li>
+                <li><a href="">青少年研学</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="menu">
+        <a class="select" href="YunNan Elephant&Human living environment.html">中文</a>
+        <a href="YunNan Elephant&Human living environment_en.html">EN</a>
     </div>
-    <div class="main" style="position:relative; background-color:#f3f3f3 ; padding: 30px;">
-        <span style=" text-align: justify; font-size: 5um;">
-            <b>人象冲突的原因:</b>
-            专家认为，人象冲突日益加剧，首先是种群数量的增长，其次是亚洲象赖以生存的原始森林大量被橡胶林、茶树林等经济作物替代。
-             
-            西双版纳亚洲象保护项目办主任郭贤明表示，过度开发也会造成亚洲象的栖息地孤岛化、片状化。过去很多是连片的栖息地，这几年开发了以后，就成了片状化，比较明显。片状化明显以后，现成的一些栖息地里面，可以吃的食物不是特别多，也就会导致它从森林里面走出来，到老百姓的一些庄稼地里面找吃的。
-             
-            随着适合野象生存的森林面积缩小，人象活动区域重叠，而因为保护大象的需要，人对大象的威慑力在下降，这些都是人象冲突加剧的原因。专家认为，人与大象生活空间不断交错，造成人象频繁遭遇，除了完善预警机制、落实保险制度之外，还要避免人类侵占野象生存区域。
-        </span>
-    </div>
-</div>
-<hr class="new5" style="border-top: 15px solid black;">
+ </div>
 
-<div class='row'>
-    <div class=side>
-        <img src="image/1000.webp" alt="none" width="700" height="400">
-    </div>
-    <div class=side>
-        <span style="position: relative; top: 100px; text-align: center; font-size: 160%;">
-            解决人象冲突是系统性工程。近年来，当地有关部门采取了加强群众宣传、加强监测预警、为大象建设食物源基地、引入野象肇事保险机制等一系列防治措施，取得了一定成效。政府、企业与个人都在不断探索让人象更好和谐共处的解决方案。
-        </span>
+</div>
+
+<div class="banner" style="background-image: url('./images/233.jpg');">
+
+    <div class="banner-intro">
+        <p class="title">云南人象共存背景</p>
+        <p class="text">给它们一点爱，我们唯一的家园地球才更美好——保护野生动物，就是关爱人类自己。</p>
+    
+        
     </div>
 
 </div>
+<div class="body">
+    <div class="body-content">
 
-<div class="footer" style="position:relative; top:30px;">
-    NickTsai © 2021
+<div class="content-item text small">
+    中国目前约有250~300头亚洲象，分布在云南南部，主要包括西双版纳国家自然保护区、南滚河自然保护区、思茅保护区等。亚洲象是我国一级重点保护野生动物，被国际自然和自然资源保护联盟(IUCN)列为濒危物种。 
+    亚洲象喜欢栖息在1000米以下低海拔的地势平坦的山地河谷中，那里植被类型一般为竹阔混交林，灌丛或高山草甸。它们取食范围较广，野生植物与农作物均各有取食。由于体型庞大，亚洲象进食量十分惊人，据估计每日要消耗150kg左右的植物。有意思的一点是，亚洲象的族群为母系社会，象群成员主要是母象和幼象，成年公象则独来独往。作为高智商哺乳动物，它们还能够记住固定的食物采集地点，并且反复回来取食。
+    <div style="position:relative; top:0px; left:0px; background-color:#bbbbba;">
+        <img width="700" height="400" src="images/map.jpg" frameborder="0" style="cursor: url('images/cursor.png'), default; position:relative; left:10px; top:5px;">
+    </div>
 </div>
-<div class="end">
+
+<img style="width: 1000px; height:720px;" src="images/warning.jpg">
+
+<div class="body">
+<div class="body-content">
+
+<div class="content-item">
+<div id="left" style="width:40%;float:left;background-color: #c30d23;">
+    <br><br><br>
+    <p class="text_1">&nbsp;&nbsp;&nbsp;人类</p><br><br>
+    <p class="text_1">&nbsp;&nbsp;&nbsp;与</p><br><br>
+    <p class="text_1">&nbsp;&nbsp;&nbsp;大象</p><br><br>
+    <p class="text_1">&nbsp;&nbsp;&nbsp;产生冲突</p><br><br>
+    <p class="text_1">&nbsp;&nbsp;&nbsp;的原因</p><br><br><br><br><br><br><br><br>
+</div>
+
+<div id="right" style="width:60%;float:left;">
+    <br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专家认为，人象冲突日益加剧，首先是种群数量的增长，</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其次是亚洲象赖以生存的原始森林大量被橡胶林、茶树林</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;等经济作物替代。</p></strong><br><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;西双版纳亚洲象保护项目办主任郭贤明表示，过度开发也会</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;造成亚洲象的栖息地孤岛化、片状化。过去很多是连片的栖</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;息地，这几年开发了以后，就成了片状化，比较明显。片状</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;化明显以后，现成的一些栖息地里面，可以吃的食物不是特</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别多，也就会导致它从森林里面走出来，到老百姓的。一些</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;庄稼地里面找吃的</p></strong><br><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;随着适合野象生存的森林面积缩小，人象活动区域重叠，而</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为保护大象的需要，人对大象的威慑力在下降，这些都是</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人象冲突加剧的原因。专家认为，人与大象生活空间不断交</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;错，造成人象频繁遭遇，除了完善预警机制、落实保险制度</p></strong><br>
+    <strong><p class="text" style="font-size: large;text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;之外，还要避免人类侵占野象生存区域。</p></strong><br>
 
 </div>
 
-</script>
+</div>
+</div>
+</div>
+<div class="content-item text small">
+    解决人象冲突是系统性工程。近年来，当地有关部门采取了加强群众宣传、加强监测预警、为大象建设食物源基地、引入野象肇事保险机制等一系列防治措施，取得了一定成效。政府、企业与个人都在不断探索让人象更好和谐共处的解决方案。
+    <div style="position:relative; top:50px; left:0px; background-color:#bbbbba;">
+        <img width="700" height="400" src="images/1.jpg" frameborder="0" style="cursor: url(''), default; position:relative; left:10px; top:5px;">
+    </div>
+</div>
+    </div>
 
+
+<div class="footer">
+    <div class="footer-content">
+        © Copyright 2021 中南屋
+        
+    </div>
+
+</div>
+    
 </body>
 </html>
