@@ -1,0 +1,39 @@
+.content-item{
+    background-color: #fff;
+    width: 1000px;
+    min-height: 600px;
+    text-align: left;
+    padding: 60px;
+    margin: 60px 0;
+    
+    text-align: center;
+}
+
+.content-item p{
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.content-item .title{
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+}
+.content-item .words{
+
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+.content-item img{
+
+margin: 30px 0;
+  width: 100%;
+}

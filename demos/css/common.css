@@ -73,6 +73,13 @@ padding: 0 30px;
 
 
 }
+
+
+
+
+.nav li a:active {
+    color: #000;
+}
 li a:visited{
     color: #000;
 }
@@ -121,8 +128,10 @@ display: block;
 height: 40px;
 text-align: center;
 position: relative;
+color: #000;
 
 }
+
 
 
 /************ 导航***********************************/

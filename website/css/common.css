@@ -1,5 +1,7 @@
 
-
+.clear{
+    clear: both;
+}
 .header{
     width: 100%;
     position: relative;
@@ -71,15 +73,13 @@ position: relative;
 padding: 0 30px;
 
 
+}
 
-}
-li a:visited{
-    color: #000;
-}
 
 .nav>li>span {
     cursor: pointer;
   }
+
 
 .nav>li>.active{
     display:inline-block;
@@ -106,6 +106,8 @@ li a:visited{
     font-size: 13px;
 }
 
+
+
 .nav>li:hover ul {
     display: block;
 } 
@@ -121,8 +123,24 @@ display: block;
 height: 40px;
 text-align: center;
 position: relative;
-
+color: #000;
 }
+
+.nav li a:visited{
+    color: #000;
+    }
+    
+.nav li a:active{
+    color: #000;
+    }
+
+#current-page{
+
+    color:#c30d23;
+  font-weight: bold;
+}
+
+
 
 
 /************ 导航***********************************/
