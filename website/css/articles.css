@@ -1,0 +1,56 @@
+.article .intro{
+    font-size: 16px;
+    line-height: 1.5
+    ;
+    text-align: justify;
+}
+
+.article .title{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+body{
+    background-color: #f3f3f3;
+}
+
+.content-item{
+    background-color: #fff;
+    width: 1000px;
+    text-align: center;
+    padding: 60px;
+    margin: 60px 0;
+}
+
+.link-area{
+position: relative;
+clear: both;
+margin-top: 30px;
+}
+.link-img{
+    max-width: 100%;
+    
+}
+.link-btn{
+    display: block;
+    border-radius: 5px;
+    background-color:rgba(255,255,255,0.6);
+    top: 50%;
+    margin-top: -30px;
+    left: 50%;
+    margin-left: -100px;
+    position:absolute;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    color: #444;
+
+}
+
